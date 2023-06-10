@@ -59,13 +59,19 @@ main{
 nav{
     background-color: black;
     margin:0 auto;
+    text-align: center;
     font-size: large;
     border: 1px solid black;
+
 }
 
 nav ul{
     list-style-type: none;
+
+    
 }
+
+
 
 nav a{
     display: block;
@@ -76,7 +82,9 @@ nav a{
 }
 
 nav a:hover{
-    border: 1px solid white;
+    border: 1px solid  dodgerblue; 
+    color:  dodgerblue; 
+    background-color: white;
 }
 
 #logo_link{
@@ -89,12 +97,12 @@ nav a:hover{
     padding: 10px;
 }
 
-#me-png{
+/* #me-png{
     
     height: 150px;
     float: right;
     margin-right: 25px;
-}
+} */
 
 #flagMX{
     width: 60px;
