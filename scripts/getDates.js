@@ -7,7 +7,7 @@
 
 function lastmodified(){
     /* set date the document was last modified*/
-    document.querySelector('#lastModified').textContent = document.lastModified;
+    document.querySelector('#lastModified').textContent = "Last Modification: " + document.lastModified.toString();
     }   
 
 
