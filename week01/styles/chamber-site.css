@@ -1,0 +1,33 @@
+/*@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  hr {
+    height: 8px;
+    margin: 45px 0;
+    background:navy;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
+
+  header {
+    padding: 1em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #006599;
+  }
