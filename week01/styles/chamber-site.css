@@ -17,22 +17,35 @@ body {
   hr {
     height: 8px;
     margin: 45px 0;
-    background:navy;
+    background: #BBBBBB;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
+  h2, h4, h5, h6 {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #006599;
   }
 
-  header {
+  h3{
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    color: #424242;
+  }
+
+  header{
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
     padding: 1em;
     text-align: center;
-    color: #ffffff;
     background-color: #006599;
+    color: #FDFAFD;
+    
   }
 
 
+  p {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    padding: 1em;
+  }
+
+  
   .colors {
     width: 100%;
     min-width: 350px;
