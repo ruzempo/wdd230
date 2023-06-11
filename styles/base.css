@@ -4,6 +4,13 @@
 }
 */
 
+body{
+    /*Simple reset*/
+    margin: 0;
+    padding: 0;
+}
+
+
 
 main{
     display:block;
@@ -57,8 +64,8 @@ main{
 } */
 
 nav{
+
     background-color: black;
-    margin:0 auto;
     text-align: center;
     font-size: large;
     border: 1px solid black;
@@ -67,6 +74,7 @@ nav{
 
 nav ul{
     list-style-type: none;
+    padding: 0% 1%;
 
     
 }
@@ -76,7 +84,7 @@ nav ul{
 nav a{
     display: block;
     color:white;
-    text-align: center;
+    /* text-align: center; */
     padding: 10px;
     text-decoration: none;
 }
@@ -87,15 +95,15 @@ nav a:hover{
     background-color: white;
 }
 
-#logo_link{
+/* #logo_link{
     color: white;
     padding: 10px;
-}
+} */
 
-.linkNav{
+/* .linkNav{
     color:white;
     padding: 10px;
-}
+} */
 
 /* #me-png{
     
@@ -130,9 +138,10 @@ header{
 
 }
 
-
-
-
+header h1{
+    padding: 4% 0%;
+    text-align: center;
+}
 
 ul{
     list-style-type: none;
