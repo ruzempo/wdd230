@@ -10,10 +10,13 @@ body {
 	align-items: center;
 	justify-content: center;
 	font-family: Acme, Arial, sans-serif;
+    background-color:#360344;
 }
 
 h1 {
 	font-size: 1.5rem;
+    color: #e8e117;
+    font-weight: bolder;
 }
 
 main {
