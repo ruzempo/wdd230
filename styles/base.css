@@ -63,28 +63,24 @@ main{
     font-size: large;
 } */
 
+/*Sustituido por el menu hamburger*/
+
 nav{
 
     background-color: black;
     text-align: center;
-    font-size: large;
-    border: 1px solid black;
-
+    font-size: 1.5rem; 
 }
 
 nav ul{
     list-style-type: none;
-    padding: 0px 2px;
-
-    
+    padding: 0px 2px; 
 }
-
 
 
 nav a{
     display: block;
     color:white;
-    /* text-align: center; */
     padding: 10px;
     text-decoration: none;
 }
@@ -94,6 +90,51 @@ nav a:hover{
     color:  dodgerblue; 
     background-color: white;
 }
+
+
+/***/
+#menu {
+	display: block;
+	font-size: 2rem;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #eee;
+	color: #000;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-decoration: none;   
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+
+
+
+
+
+
+
+
+
 
 /* #logo_link{
     color: white;

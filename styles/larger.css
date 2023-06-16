@@ -1,12 +1,27 @@
-@media (min-width: 800px){
-    nav ul{
+@media only screen and (min-width: 800px){
+   
+    nav{
+        border: 1px solid black;
+    }
+        
+   nav ul{
         display: flex;
         /* justify-content: space-around; */
 
     }
-
+    
+    
     nav ul li{
         flex: 1 1 100%;
+    } 
+    
+    /**/
+    #menu {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
     }
 
 
@@ -20,7 +35,4 @@
     main h2{
         text-align: left;
     }
-
-
-  
 }
