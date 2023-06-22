@@ -1,3 +1,10 @@
+
+/* * {
+	border: 2px solid blue
+}
+ */
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,6 +12,7 @@
 }
 body {
 	font-family: Roboto, sans-serif;
+    background-color: #FDFAFD;
 }
 
 
@@ -18,21 +26,48 @@ body {
     align-self: center;
 }
  
+
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr ; /* = to repeat(5,1fr)*/
+    /*margin-top: -100px;*/
+
+}
+
+#hero-box{
+    grid-column: 1/4;
+    grid-row:1/3;
+    z-index: -1;
+}
+
 #hero-img{
     width: 100%;
 }
 
-#hero-msg{
+/* #hero-msg{
     position: absolute;
     top: 20%;
     left: 20%;
     text-align: center;
+} */
+
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/1;
+    margin-top: 15px;
 }
 
+/* .home-title{
+    color: #4496CC;
+    font-family:Merienda, Papyrus, "Monotype Corsiva";
+    font-size: 2em;
+    margin-top: 10px;
+} */
+
 #hero-msg h1{
-    color:#FDFAFD;
+    color:#006599;
     /* font-family:Merienda, Papyrus, "Monotype Corsiva"; */
-    font-size: 4em;
+    font-size: 3.5em;
     margin: 45px;
     text-align: center;
 }
@@ -43,6 +78,25 @@ body {
     font-size: 2em;
     margin: 45px;
     text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+.join{
+    background-color: #006599;
+    color:#F8F7FF;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.join:hover{
+    background-color: #EB9627;
+    color:#F8F7FF;
 }
 
 /* Mobile View ***************/
@@ -100,8 +154,44 @@ nav {
 	content: "X";
 }
 
+
+
+footer{
+    background-color:#424242;
+    text-align: left;
+    padding: 25px 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3{
+    color:#FDFAFD;
+}
+
+footer h3 a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    color:#FDFAFD;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:#006599;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+
+
 /* Media Query for wider than mobile viewports. Breakpoint should be based upon the design and content and use em units to be relative to the user's font size versus fixed with pixels.*/
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 55em) {
 	.navigation {
 		display: flex;
 	}
