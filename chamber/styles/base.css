@@ -67,15 +67,15 @@ body {
 #hero-msg h1{
     color: #FDFAFD;
     /* font-family:Merienda, Papyrus, "Monotype Corsiva"; */
-    font-size: 3.5em;
+    font-size: 1.5em;
     margin: 45px;
     text-align: center;
 }
 
 #hero-msg h4{
-    text-align: center;
-    color: #006599; 
-    font-size: 2em;
+    color: #ffffff; 
+    font-weight: bolder;
+    font-size: 1em;
     margin: 45px;
     text-align: center;
 }
@@ -187,7 +187,9 @@ footer .social img {
     padding-top: 15px;
 }
 
-
+#logo_link{
+    display: none;
+}
 
 
 /* Media Query for wider than mobile viewports. Breakpoint should be based upon the design and content and use em units to be relative to the user's font size versus fixed with pixels.*/
@@ -205,4 +207,23 @@ footer .social img {
 	#menu {
 		display: none;
 	}
+
+    #logo_link{
+        display:flex;
+    }
+
+    #hero-msg h1{
+        color: #FDFAFD;
+        font-size: 3.5em;
+        margin: 45px;
+        text-align: center;
+    }
+    
+    #hero-msg h4{
+        color: #006599; 
+        font-size: 2em;
+        margin: 45px;
+        text-align: center;
+    }
+
 }
