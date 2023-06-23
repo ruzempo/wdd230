@@ -65,7 +65,7 @@ body {
 } */
 
 #hero-msg h1{
-    color:#006599;
+    color: #FDFAFD;
     /* font-family:Merienda, Papyrus, "Monotype Corsiva"; */
     font-size: 3.5em;
     margin: 45px;
@@ -74,7 +74,7 @@ body {
 
 #hero-msg h4{
     text-align: center;
-    color: #EB9627; 
+    color: #006599; 
     font-size: 2em;
     margin: 45px;
     text-align: center;
