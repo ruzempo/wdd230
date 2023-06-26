@@ -95,7 +95,7 @@ body {
 }
 
 .join:hover{
-    background-color: #EB9627;
+    background-color: #424242;
     color:#F8F7FF;
 }
 
@@ -154,6 +154,42 @@ nav {
 	content: "X";
 }
 
+
+#ContainEW{
+    display: grid;
+    grid-template-columns: minmax(200px, 50%) 1fr;
+}
+
+.events{
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid #424242;
+    background-color:#BBBBBB;
+
+}
+.weather{
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid #424242;
+    background-color:#BBBBBB;
+}
+
+.advertisements{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.box{
+    border: 1px  solid green;
+    text-align: center;
+    height: 200px;
+    flex: 1 1 100px; /*stretching*/
+    /*flex: 0 1 150px; not stretching*/
+    margin: 5px;
+    padding: 15px;
+    background-color:#BBBBBB;
+}
 
 
 footer{
