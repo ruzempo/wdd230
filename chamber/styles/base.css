@@ -198,7 +198,7 @@ nav {
 .box{
     border: 1px  solid green;
     text-align: center;
-    height: 200px;
+    height: 220px;
     flex: 1 1 100px; /*stretching*/
     /*flex: 0 1 150px; not stretching*/
     margin: 5px;
