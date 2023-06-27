@@ -42,6 +42,7 @@ body {
 
 #hero-img{
     width: 100%;
+    border: 1px solid #424242;
 }
 
 /* #hero-msg{
@@ -54,7 +55,7 @@ body {
 #hero-msg{
     grid-column: 2/3;
     grid-row: 1/1;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 /* .home-title{
@@ -65,30 +66,32 @@ body {
 } */
 
 #hero-msg h1{
-    color: #FDFAFD;
+    color: #f3a109;
     /* font-family:Merienda, Papyrus, "Monotype Corsiva"; */
     font-size: 1.5em;
-    margin: 45px;
+    margin: 15px;
     text-align: center;
 }
 
 #hero-msg h4{
-    color: #ffffff; 
+    color: #ebeef3; 
     font-weight: bolder;
     font-size: 1em;
-    margin: 45px;
+    margin: 18px;
     text-align: center;
+    display: none;
 }
 
 .button-box{
     text-align: center;
+    padding: 5px;
 }
 
 .join{
     background-color: #006599;
     color:#F8F7FF;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -200,9 +203,10 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
-footer h3{
+footer h3, h4{
     color:#FDFAFD;
 }
 
@@ -228,6 +232,8 @@ footer .social img {
 }
 
 
+
+
 /* Media Query for wider than mobile viewports. Breakpoint should be based upon the design and content and use em units to be relative to the user's font size versus fixed with pixels.*/
 @media only screen and (min-width: 55em) {
 	.navigation {
@@ -248,18 +254,36 @@ footer .social img {
         display:flex;
     }
 
+
     #hero-msg h1{
-        color: #FDFAFD;
+        color: #f3a109;
         font-size: 3.5em;
         margin: 45px;
         text-align: center;
     }
     
     #hero-msg h4{
-        color: #006599; 
-        font-size: 2em;
+        display:inline;
+        color:  #006599; 
+        font-weight: bolder;
+        font-size: 2.2em;
         margin: 45px;
         text-align: center;
+    }
+
+    .join{
+        background-color: #006599;
+        color:#F8F7FF;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+
+    .button-box{
+        text-align: center;
+        padding: 65px;
     }
 
 }
