@@ -158,6 +158,8 @@ nav {
 }
 
 
+/*Container*/
+
 #ContainEW{
     display: grid;
     grid-template-columns: minmax(200px, 50%) 1fr;
@@ -194,7 +196,7 @@ nav {
     background-color:#BBBBBB;
 }
 
-
+/*footer*/
 footer{
     background-color:#424242;
     text-align: left;
@@ -229,61 +231,4 @@ footer .social img {
 
 #logo_link{
     display: none;
-}
-
-
-
-
-/* Media Query for wider than mobile viewports. Breakpoint should be based upon the design and content and use em units to be relative to the user's font size versus fixed with pixels.*/
-@media only screen and (min-width: 55em) {
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 100%;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	#menu {
-		display: none;
-	}
-
-    #logo_link{
-        display:flex;
-    }
-
-
-    #hero-msg h1{
-        color: #f3a109;
-        font-size: 3.5em;
-        margin: 45px;
-        text-align: center;
-    }
-    
-    #hero-msg h4{
-        display:inline;
-        color:  #006599; 
-        font-weight: bolder;
-        font-size: 2.2em;
-        margin: 45px;
-        text-align: center;
-    }
-
-    .join{
-        background-color: #006599;
-        color:#F8F7FF;
-        text-decoration: none;
-        font-size: 18px;
-        padding: 15px 30px;
-        margin-top: 50px;
-        border-radius: 5px;
-    }
-
-    .button-box{
-        text-align: center;
-        padding: 65px;
-    }
-
 }
