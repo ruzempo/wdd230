@@ -1,8 +1,8 @@
-
-/* * {
+/*
+* {
 	border: 2px solid blue
 }
- */
+*/ 
 
 
 * {
@@ -103,6 +103,12 @@ body {
 }
 
 /* Mobile View ***************/
+
+#logo_link{
+    display: none;
+}
+
+
 #menu {
 	display: block;
 	font-size: 2rem;
@@ -132,11 +138,14 @@ nav {
 .navigation li {
 	display: none;
     white-space: nowrap;
+    width: 400px;
+    align-content: center;
+ 
 }
 .navigation a {
 	display: block;
-	padding: 2rem;
-	text-align: left;
+	padding: 1rem;
+	text-align: center;
 	text-decoration: none;
 	color: #BBBBBB;
 	font-weight: 700;
@@ -155,6 +164,7 @@ nav {
 
 #menu.show::before {
 	content: "X";
+    font-size: medium;
 }
 
 
@@ -203,7 +213,7 @@ footer{
     padding: 25px 50px;
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
     align-items: center;
 
 }
@@ -226,9 +236,14 @@ footer a:hover{
 }
 
 footer .social img {
-    padding-top: 15px;
+    padding-top: 5px;
+    width: 2.5em;
+   
 }
 
-#logo_link{
-    display: none;
+#information{
+    font-size:small;
+    text-align: left;
 }
+
+

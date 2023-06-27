@@ -11,6 +11,7 @@
 	}
 	.navigation a {
 		text-align: center;
+        padding: 2rem;
 	}
 	#menu {
 		display: none;
@@ -51,5 +52,13 @@
         text-align: center;
         padding: 65px;
     }
+
+    /*footer*/
+    
+    #information{
+        font-size:medium;
+        text-align: center;
+    }
+    
 
 }
