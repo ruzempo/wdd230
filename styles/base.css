@@ -17,29 +17,68 @@ main{
 }
 
 #maintitle{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+
+.hero{
     grid-column-start: 1;
     grid-column-end: 3;
+    grid-row-start: 1;
+    position: relative;
+
+}
+
+.hero picture{
+    width: 100%;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.herolabel {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background: radial-gradient(#006599, #424242);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.95;
+    color:#ffffff;
+
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .15rem;
+	font-weight: 700;
+	font-size: 1rem;
 }
 
  #learning{
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 2;
+    grid-row-start: 3;
     grid-row-end: 5;
  }
 
  #project{
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 2;
+    grid-row-start: 3;
     grid-row-end: 3;
  }
 
  #information{
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
  }
 
 .card{
@@ -210,6 +249,14 @@ ul{
 .sections li{
     font-size: large;
     line-height: 1.8;
+}
+
+iframe{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    width: 100%;
+    object-fit: cover;
 }
 
 footer{
