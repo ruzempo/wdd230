@@ -1,0 +1,131 @@
+/*
+* {
+	border: 2px solid blue
+}
+*/
+
+body{
+    /*Simple reset*/
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: start;
+    justify-content:center;
+    background-color: rgb(0, 79, 112);
+    color: white;
+}
+
+header h1{
+    padding: 4% 0%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+nav{
+    display: flex;
+    justify-content:center;
+    background-color: black;
+    text-align: center;
+    font-size: 1.5rem; 
+}
+
+nav a{
+    display: block;
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border: 1px solid  dodgerblue; 
+    color:  dodgerblue; 
+    background-color: white;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0px 2px; 
+}
+
+main{
+    width: 700px;
+    margin: auto;
+    display: grid;
+    /* grid-template: auto auto auto / auto auto;  rows/columns*/
+    grid-template: repeat(2, 1fr); /* rows/columns*/
+}
+
+#maintitle{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    text-align: center;
+}
+
+.card{
+    border-radius: 15px;
+    padding: 8px;
+    margin: 12px;
+    box-shadow: 8px 8px 6px 6px rgb(135, 138, 141);
+    background-color: rgb(0, 79, 112);
+}
+
+.sections{
+    background-color: white; 
+    border-radius:0px 0px 15px 15px; 
+    padding: 15px;
+    height: auto;
+}
+
+.sections li{
+    font-size: large;
+    line-height: 1.8;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+#learning{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 2;
+ }
+
+ #information{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+ }
+
+ footer{
+    background-color: rgb(0, 79, 112);
+    color: white;
+    padding: 5px;
+}
+
+#flagMX{
+    width: 60px;
+    height: 30px;
+}
+
+#nameCity{
+    text-align: center;
+    padding: 8px;
+    
+}
+
+#lastModified{
+    text-align: center;
+    
+}
