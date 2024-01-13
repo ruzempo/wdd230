@@ -61,7 +61,7 @@ main{
     margin: auto;
     display: grid;
     /* grid-template: auto auto auto / auto auto;  rows/columns*/
-    grid-template: repeat(2, 1fr); /* rows/columns*/
+    grid-template-columns: repeat(2, 1fr); /* rows/columns*/
 }
 
 #maintitle{
