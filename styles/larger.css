@@ -1,0 +1,57 @@
+@media only screen and (min-width: 800px){
+   
+	.navigation {
+		display: flex;
+	}
+
+    .navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+
+    .navigation a {
+		text-align: center;
+        padding: 2rem;
+	}
+
+    
+    /**/
+
+    main{
+        width: 800px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #maintitle{
+        text-align: left;
+    }
+
+    header h1{
+        padding: 4% 0%;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 48px;
+    }
+
+    #learning{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 2;
+     }
+    
+     #information{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 2;
+     }
+
+     #cs{
+        height: 80%;
+        text-align: center;
+     }
+
+}
