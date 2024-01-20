@@ -1,4 +1,15 @@
 
+* {
+	border: 2px solid blue
+}
+
+
+body{
+    /*Simple reset*/
+    margin: 0;
+    padding: 0;
+}
+
 header,
 main,
 footer {
