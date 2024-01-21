@@ -32,7 +32,7 @@ footer {
     /*width: 400px;*/
     height: 400px;
 
-    flex: 1 1 350px; /* stretching */
+    flex: 1 1 325px; /* stretching */
     /*flex: 0 1 150px;  /* not stretching */
     margin: 5px;
 }
