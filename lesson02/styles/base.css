@@ -1,0 +1,38 @@
+
+* {
+	border: 2px solid blue
+}
+
+
+body{
+    /*Simple reset*/
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+.parent{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+
+.card{
+
+    border: 1px  solid navy;
+    text-align: center;
+    /*width: 400px;*/
+    height: 400px;
+
+    /*flex: 1 1 350px; /* stretching */
+    flex: 0 1 150px;  /* not stretching */
+    margin: 5px;
+}
