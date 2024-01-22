@@ -10,15 +10,14 @@ body{
     padding: 0;
 }
 
-header,
-main,
-footer {
+header, main, footer {
 	max-width: 980px;
 	margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
-    display: flex;
+    /* display: flex; */
     align-items: start;
     justify-content:center;
     background-color: rgb(0, 79, 112);
@@ -32,6 +31,13 @@ header h1{
     font-size: 28px;
 }
 
+header h3{
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
 .parent{
     display: flex;
     flex-wrap:wrap;
@@ -42,13 +48,38 @@ header h1{
 .card{
 
     border: 1px  solid navy;
+    border-radius: 15px;
     text-align: center;
     /*width: 400px;*/
     height: auto;
 
     flex: 1 1 300px; /* stretching */
     /*flex: 0 1 150px;  /* not stretching */
-    margin: 5px;
+    margin:5px;
+    padding: 5px;
+   
+}
+
+.title-card {
+    display:flex;
+    width: 100%;
+    height: 55px;
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    align-items: center;
+}
+
+.title-card p{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.organization{
+    margin-bottom: 10px;
 }
 
 .screenshot img{
@@ -63,6 +94,7 @@ footer{
     background-color: rgb(0, 79, 112);
     color: white;
     padding: 5px;
+    margin-top: 10px;
 }
 
 

@@ -1,0 +1,83 @@
+
+/* Create three responsive views (small, medium, and large) */
+
+/* small */
+@media (max-width: 600px) {
+    .card {
+        background:white;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+      
+      }
+  
+      a{
+          
+          color:rgb(255, 134, 0);
+      }
+      
+      a:hover{
+          color: rgb(0, 113, 184);
+          
+      }
+
+      .title-card {
+        
+        background: rgb(0, 113, 184);
+        color: white;
+
+    } 
+  }
+  
+  /* medium */
+  @media (min-width: 600px) and (max-width: 900px) {
+    .card {
+        background: rgb(10, 91, 105);
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+       
+      }
+  
+      a{
+          
+          color:rgb(255, 165, 0);
+      }
+      
+      a:hover{
+          color: white;
+          
+      }
+
+      .title-card {
+  
+        background-color: black;
+        color: rgb(218, 152, 91);
+
+    }      
+
+  }
+  
+  /* large */
+  @media (min-width: 900px) {
+    .card {
+      background: yellow;
+      color: navy;
+      font-family: 'Nunito', sans-serif;
+    
+    }
+
+    a{
+        
+        color:rgb(40, 72, 139);
+    }
+    
+    a:hover{
+        color: rgb(99, 62, 168);
+        
+    }
+ 
+  }
+
+
+  
+ 
+  
