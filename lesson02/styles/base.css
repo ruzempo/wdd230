@@ -53,8 +53,10 @@ header h3{
     /*width: 400px;*/
     height: auto;
 
-    flex: 1 1 300px; /* stretching */
+    /* pancake responsive */
+    /*flex: 1 1 300px; /* stretching */
     /*flex: 0 1 150px;  /* not stretching */
+
     margin:5px;
     padding: 5px;
    
@@ -88,6 +90,10 @@ header h3{
     border: solid 1px navy;
 }
 
+
+.description{
+    text-align: justify;
+}
 
 
 footer{

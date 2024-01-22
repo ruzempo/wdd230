@@ -30,6 +30,12 @@
   
   /* medium */
   @media (min-width: 600px) and (max-width: 900px) {
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .card {
         background: rgb(10, 91, 105);
         color: white;
@@ -52,12 +58,36 @@
         background-color: black;
         color: rgb(218, 152, 91);
 
-    }      
+    } 
+    
+    #proximity{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #repetition{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    #contrast{
+        grid-column-start: 1;
+        grid-column-end: 3; 
+    }
 
   }
   
   /* large */
   @media (min-width: 900px) {
+
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+
     .card {
       background: yellow;
       color: navy;
@@ -73,6 +103,21 @@
     a:hover{
         color: rgb(99, 62, 168);
         
+    }
+
+    #proximity{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #repetition{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    #contrast{
+        grid-column-start: 3;
+        grid-column-end: 4; 
     }
  
   }
