@@ -1,5 +1,9 @@
 @media only screen and (min-width: 800px){
    
+    nav{
+        font-size: 1.5rem;
+    }
+
 	.navigation {
 		display: flex;
 	}
@@ -53,5 +57,13 @@
         height: 80%;
         text-align: center;
      }
+
+
+     /* for resposnsive hamburger menu */
+     #menu {
+        display: none;
+    }
+
+
 
 }
