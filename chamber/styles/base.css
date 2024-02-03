@@ -94,7 +94,6 @@ nav{
         /* grid-column: 2/3; */
         grid-column: 1/4;
         grid-row: 1/1;
-        /* margin-top: 10%; */
         background-color: #ffffff;
         opacity: 0.8;
         margin: 10%;
@@ -115,7 +114,6 @@ nav{
         font-size: 1em;
         margin: 18px;
         text-align: center;
-        /* display: none; */
     }
     
     /* button */
@@ -129,6 +127,7 @@ nav{
         color:#ffffff;
         text-decoration: none;
         font-size: 14px;
+        font-weight: bolder;
         padding: 15px 30px;
         margin-top: 50px;
         border-radius: 5px;
@@ -136,14 +135,20 @@ nav{
     
     .join:hover{
         background-color: #ff6817;
-        /* color:#006599; */
     }
 
 
 /*Container*/
 
 .containersection h1{
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 2px solid #ff6817;
+    font-family: 'Nunito', sans-serif;
+}
+
+.containersection h2, h3{
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
 }
 
 #ContainEW{
@@ -155,14 +160,11 @@ nav{
 .events{
     padding: 15px;
     margin-right: 5px;
-    /* border: 1px solid #ffffff; */
     background-color:#006599;
 
 }
 .weather{
     padding: 15px;
-    /* margin: 5px; */
-    /* border: 1px solid #ffffff; */
     background-color:#006599;
 }
 
@@ -189,7 +191,7 @@ nav{
     text-align: center;
     height: 220px;
     flex: 1 1 100px; /*stretching*/
-    /*flex: 0 1 150px; not stretching*/
+    /*flex: 0 1 150px; */ /* not stretching*/
     margin-top: 5px;
     padding: 15px;
     background-color:#006599;
