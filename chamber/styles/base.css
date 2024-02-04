@@ -12,13 +12,42 @@
 body{
     text-align: center;
     font-family: 'Montserrat', sans-serif; /* tipo deletra base del sitio */
+    font-size: small;
     background-color: black;
+
 }
 
 main{
-    width: 1024px;
-    margin: 15px auto;
+    max-width: 480px;
+    margin: auto;
     text-align: left;
+}
+
+#menu {
+	display: block;
+	font-size: 20px;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #ff6817;
+	color: #ffffff;
+    
+    margin-left:5px;
+	align-self:center;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+#menu.show::before {
+	content: "X";
+    font-size: medium;
+}
+
+
+.navigation.show li {
+	display: block;
 }
 
 nav{
@@ -31,13 +60,17 @@ nav{
 .navigation{
     list-style: none;
     margin: 0 auto;
-
+    max-width: 480px;
 }
 
 .navigation li{
-    display: inline-block;
+    
+    display: none;
+
+    /*display: block;
     font: bold 18px;
-    white-space: nowrap;
+    white-space: nowrap;*/
+
     }
 
 .navigation a {
@@ -56,63 +89,68 @@ nav{
     background-color: #ffffff;
 }
 
-
-
-
 #logo_link{
-    float: left;
-    margin-left: 25px;
-    justify-self: center;
-    align-self: center;
+    display: none;
 }
+
 
 .social-mobile img{
+    align-self:center;
     width: 30px;
-    height: 30px;
+    height: auto;
+    border: 1px solid #ffffff;
+    margin: 5px;
+    padding: 5px;
 }
 
-.social-mobile{
-    float: inline-end;
-    margin-right: 25px;
-    align-self: center;
+.social-mobile a:hover{
+    filter: brightness(80%);
 }
 
 /* a call to action link */
     #hero{
         display: grid;
-        grid-template-columns: 1fr 3fr 1fr ; /* = to repeat(5,1fr)*/
+        grid-template-columns: repeat(1, 1fr);
     }
 
     /* hero image en segundo plano */
     #hero-box{
-        grid-column: 1/4;
+        grid-column: 1/1;
         grid-row:1/3;
         z-index: -1;
     }
+
+    #hero-box img{
+        max-width: 480px;
+        height: auto;
+        grid-column: 1/1;
+    }
+
+
     /* message and button en primer plano  */
     #hero-msg{
         /* grid-column: 2/3; */
-        grid-column: 1/4;
+        grid-column: 1/1;
         grid-row: 1/1;
-        background-color: #ffffff;
-        opacity: 0.8;
-        margin: 10%;
+        background-color: #ffffff ;
+        opacity: 0.9;
+        margin-top: 8%;
     }
 
     #hero-msg h1{
-        color: #ff6817;
+        color: #ff6817 ;
         font-family: 'Nunito', sans-serif;
         font-weight: bolder;
-        font-size: 1.5em;
-        margin: 15px;
+        font-size: small;
+        /* margin: auto; */
         text-align: center;
     }
     
     #hero-msg h4{
         color: #ff6817;
         font-weight: bolder;
-        font-size: 1em;
-        margin: 18px;
+        font-size: small;
+        /* margin: auto; */
         text-align: center;
     }
     
@@ -120,6 +158,7 @@ nav{
     .button-box{
         text-align: center;
         padding: 5px;
+        margin-top: 20px;
     }
     
     .join{
@@ -129,7 +168,6 @@ nav{
         font-size: 14px;
         font-weight: bolder;
         padding: 15px 30px;
-        margin-top: 50px;
         border-radius: 5px;
     }
     
@@ -143,6 +181,7 @@ nav{
 .containersection h1{
     border-bottom: 2px solid #ff6817;
     font-family: 'Nunito', sans-serif;
+    font-size: medium;
 }
 
 .containersection h2, h3{
@@ -153,7 +192,7 @@ nav{
 
 #ContainEW{
     display: grid;
-    grid-template-columns: minmax(200px, 50%) 1fr;
+    grid-template-columns: minmax(80px, 50%) 1fr;
     color:#ffffff;
 }
 
@@ -169,8 +208,7 @@ nav{
 }
 
 .advertisements{
-    display: flex;
-    flex-wrap:wrap;
+
     justify-content:center;
     color:#ffffff;
 }
@@ -187,19 +225,23 @@ nav{
 } */
 
 .box{
-    
+   /* flex: 1 1 150px; /*stretching*/
+    /*flex: 0 1 150px;*/ /* not stretching*/
     text-align: center;
-    height: 220px;
-    flex: 1 1 100px; /*stretching*/
-    /*flex: 0 1 150px; */ /* not stretching*/
+    height: 350px;
     margin-top: 5px;
     padding: 15px;
     background-color:#006599;
 }
 
-#adv2{
-    margin: 5px;
+.advmobile{
+    width: 220px;
+    height: auto;
+    margin: 25px;
+    border: solid 2px #ffffff;
+    
 }
+
 
 /*footer*/
 
@@ -220,8 +262,12 @@ footer a:hover{
 
 #information{
     font-size:small;
-    text-align: left;
+    text-align: center;
     color:#ffffff;
+}
+footer .social{
+     display:none;
+  
 }
 
 footer .social img {
