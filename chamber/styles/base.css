@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&family=Nunito:wght@300&family=Oswald&family=Roboto:wght@300&display=swap');
 
 
+
 *{
     /* border: solid 0.5px indigo; */
     margin: 0px;
@@ -18,7 +19,7 @@ body{
 }
 
 main{
-    max-width: 480px;
+    /* max-width: 480px; */
     margin: auto;
     text-align: left;
 }
@@ -31,9 +32,12 @@ main{
 	padding: .5rem .75rem;
 	background-color: #ff6817;
 	color: #ffffff;
-    
-    margin-left:5px;
-	align-self:center;
+    position: absolute;
+    left: 15px;
+	top: 5px;
+
+    /* margin-left:5px; */
+	/* align-self:center; */
 }
 
 #menu::before {
@@ -60,7 +64,7 @@ nav{
 .navigation{
     list-style: none;
     margin: 0 auto;
-    max-width: 480px;
+    /* max-width: 480px; */
 }
 
 .navigation li{
@@ -90,9 +94,14 @@ nav{
 }
 
 #logo_link{
-    display: none;
+    /* display: none; */
+    position: absolute;
+    visibility: hidden;
 }
 
+.social-mobile{
+    visibility: visible;
+}
 
 .social-mobile img{
     align-self:center;
@@ -265,9 +274,9 @@ footer a:hover{
     text-align: center;
     color:#ffffff;
 }
+
 footer .social{
-     display:none;
-  
+    visibility: hidden;
 }
 
 footer .social img {
@@ -275,4 +284,3 @@ footer .social img {
     width: 30px;
     height: auto;
 }
-

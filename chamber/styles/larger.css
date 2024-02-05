@@ -1,0 +1,79 @@
+/* larger size */
+
+@media only screen and (min-width: 950px){
+
+    main{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+	.navigation {
+		display: flex;
+	}
+
+    .navigation li {
+		display: block; /* change state in small view */
+        font: bold 18px;
+		flex: 1 1 100%;
+        white-space: nowrap;
+	}
+
+    #logo_link{
+        position: relative;
+        left: 15px;
+        top: 5px;
+    }
+
+    #hero-box img{
+        width: 1200px;
+        height: auto; 
+    }
+
+    #hero-msg{
+        background-color: #ff6817 ;
+        opacity: 0.8;
+        margin-top: 6%;
+    }
+
+    #hero-msg h1{
+        font-size:xx-large;
+    }
+    
+    #hero-msg h4{
+        font-size:x-large;
+    }
+    
+    .button-box{
+        margin-top: 35px;
+    }
+    
+    .join{
+        font-size: 20px;
+        padding: 20px 30px;
+        
+    }
+
+    .join:hover{
+        background-color: #ffffff;
+        color: #ff6817;
+    }
+
+    #adv2{
+        margin:5px;
+
+    }
+
+    #menu {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+}

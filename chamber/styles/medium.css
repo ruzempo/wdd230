@@ -1,0 +1,101 @@
+/* medium size */
+
+/* @media only screen and (max-width: 500px) and  (min-width: 800px) {   */
+
+@media only screen and (min-width: 550px){   
+
+
+/* menu */
+#logo_link{
+    visibility: visible;
+    position: absolute;
+    right: 15px;
+	top: 5px;
+}
+
+.logo{
+    width: 45px;
+    height: auto;
+}
+
+
+/* hero image */
+
+#hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#hero-box img{
+    max-width: 100%;
+    height: auto;
+}
+
+#hero-box{
+    grid-column: 1/3;
+    grid-row:1/3;
+    z-index: -1;
+}
+
+#hero-msg{
+    /* grid-column: 2/3; */
+    grid-column: 1/3;
+    /* grid-row: 1/1; */
+    background-color: #424242 ;
+    opacity: 0.9;
+    margin-top: 6%;
+}
+
+#hero-msg h1{
+    color: #ffffff ;
+    font-size:large;
+}
+
+#hero-msg h4{
+    color: #ffffff ;
+    font-size:medium;
+}
+
+.advertisements{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.box{
+    flex: 1 1 150px; /*stretching*/
+     text-align: center;
+     height: 350px;
+     margin-top: 5px;
+     padding: 15px;
+     background-color:#006599;
+ }
+
+#adv1{
+    margin-right: 5px;
+}
+
+/* social section */
+
+/* footer */
+footer .social{
+    visibility: visible;
+    display: inline-flex;
+}
+
+.social img{
+    align-self:center;
+    width: 45px;
+    height: auto;
+    border: 1px solid #ffffff;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* header */
+.social-mobile{
+    visibility: hidden;
+}
+
+
+}
