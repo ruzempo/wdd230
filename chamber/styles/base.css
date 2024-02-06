@@ -4,6 +4,7 @@
 
 
 
+
 *{
     /* border: solid 0.5px indigo; */
     margin: 0px;
@@ -120,7 +121,7 @@ nav{
     }
 
     #hero-box img{
-        max-width: 480px;
+        width: 100%;
         height: auto;
         grid-column: 1/1;
     }
