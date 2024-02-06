@@ -120,7 +120,7 @@ nav{
     }
 
     #hero-box img{
-        max-width: 100%;
+        max-width: 480px;
         height: auto;
         grid-column: 1/1;
     }
