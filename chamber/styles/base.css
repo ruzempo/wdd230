@@ -35,9 +35,6 @@ main{
     position: absolute;
     left: 15px;
 	top: 5px;
-
-    /* margin-left:5px; */
-	/* align-self:center; */
 }
 
 #menu::before {
@@ -55,7 +52,6 @@ main{
 }
 
 nav{
-    /* padding: 5px; */
     display: flex;
     justify-content: space-around;
     background-color: #006599;
@@ -67,15 +63,10 @@ nav{
     /* max-width: 480px; */
 }
 
-.navigation li{
-    
+.navigation li{ 
     display: none;
 
-    /*display: block;
-    font: bold 18px;
-    white-space: nowrap;*/
-
-    }
+}
 
 .navigation a {
 	display: block;
@@ -94,7 +85,6 @@ nav{
 }
 
 #logo_link{
-    /* display: none; */
     position: absolute;
     visibility: hidden;
 }
@@ -130,7 +120,7 @@ nav{
     }
 
     #hero-box img{
-        max-width: 480px;
+        max-width: 100%;
         height: auto;
         grid-column: 1/1;
     }
