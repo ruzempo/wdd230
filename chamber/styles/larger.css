@@ -1,8 +1,10 @@
 
 /* larger size */
 
-@media only screen and (min-width: 950px){
 /* @media (min-width: 1024px) {     */
+
+@media only screen and (min-width: 950px){
+
 
     main{
         max-width: 1200px;
