@@ -10,7 +10,10 @@
 #logo_link{
     visibility: visible;
     position: absolute;
-    right: 15px;
+    /* position: relative; */
+    display:block;
+    
+    right: 95px;
 	top: 5px;
 }
 

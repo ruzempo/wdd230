@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/toggle-witch.css">
     
 </head>
 <body>
@@ -54,6 +55,15 @@
                     <img src="images/instagram.png" alt="instagram icon">
                 </a>
             </div>
+            <!-- Rounded switch -->
+            <div id="interruptor">            
+                <label class="switch">
+                <input type="checkbox" id="switching">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+            
         </nav>
 
 
@@ -79,10 +89,12 @@
                 </div>
                 <div class="weather">
                     <h1>Weather</h1>
+                    <p>México City</p>
+                    <p>January, 25th, Sun</p> <br>
                     <h2>Sunny</h2>
-                    jun, 25th, Sun
-                    <h3>RealFeel 38 C</h3>
-                    <h3>Humidity 30% C</h3>
+                    <p>&#127774; 30°C - Sunshine </p> <br>
+                    <h3>Humidity </h3>
+                    <p>&#128167; 30% C</p>
 
                 </div>
             </div>
@@ -139,5 +151,6 @@
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger_menu.js"></script>
+    <script src="scripts/toggle-witch.js"></script>
 </body>
 </html>
