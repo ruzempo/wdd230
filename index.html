@@ -35,7 +35,7 @@
 <body>
 
     <header>
-        <img id="me-png" src="images/me.png" alt="Me">
+        <img id="me-png" src="images/me.webp" alt="Me">
         <h1>Rubén Zempoalteca</h1>
     </header>
 
@@ -51,6 +51,19 @@
     </nav>
 
     <main>
+
+        <div class="hero">
+            <picture>
+                <source media="(max-width:400px)" srcset="images/cdmx-400.webp">
+                <source media="(max-width:960px)" srcset="images/cdmx-900.webp">
+                <img src="images/cdmx-temple-wallpaper.webp" alt="Mexico City Temple" width="1278" height="800">
+            </picture>
+            <div class="herolabel">
+                <p>México CityTemple</p>
+            </div>       
+       </div>
+
+
         <h2 id="maintitle">WDD 230: Web Frontend Development</h2> 
         
         <section class="card" id="learning">

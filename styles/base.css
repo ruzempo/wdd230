@@ -76,6 +76,45 @@ main{
     
 }
 
+.hero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    position: relative;
+
+}
+
+.hero picture{
+    width: 100%;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.herolabel {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background: radial-gradient(#006599, #424242);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.95;
+    color:#ffffff;
+
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .15rem;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+
 .card{
     border-radius: 15px;
     padding: 8px;
