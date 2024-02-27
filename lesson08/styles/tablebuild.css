@@ -1,0 +1,71 @@
+
+/* importamos fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&family=Nunito:wght@300&family=Oswald&family=Roboto:wght@300&display=swap');
+
+
+/*
+* {
+	border: 2px solid blue
+}
+*/
+
+*{
+    /*Simple reset*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid green; 
+    font-size: medium;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;;
+}
+
+table th, td{
+    border: 1px solid gray;
+    padding: 8px 10px;
+}
+
+thead th{
+    background-color: darkgreen;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
+
+tr{
+    padding: 100px;
+}
+
+.subtitles{
+    background-color:forestgreen;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 5px;
+    font-weight: bold;
+    font-size: small;
+    color: brown;
+  }
+
+  tbody th{
+    font-weight: bold;
+    color: brown;
+  }
+
+  tbody > tr:nth-of-type(even) {
+    background-color:beige;
+  }
+
+
+
