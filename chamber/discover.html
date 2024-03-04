@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAM Companies Chamber of Commerce</title>
+    <meta name="description" content="GAM Companies Chamber of Commerce - home page">
+    <meta name="author" content="Rubén Zempoalteca Torres">
+    
+    <!--Meta Tags for Social Media-->
+    <meta property="og:title" content="GAM Companies Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://ruzempo.github.io/wdd230/chamber/">
+
+    <!--my favicon-->
+    <link rel="icon" href="images/favicon.ico"> 
+
+    <!--Normalize CSS file-->
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <!-- media queries -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/toggle-witch.css">
+    
+</head>
+<body>
+  
+    <main>
+        <nav>            
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.webp" alt="GAM Companies Chamber of Commerce Logo">
+            </a>
+
+            <a id="menu" href="#"></a>
+            <ul class="navigation">
+                <li><a href="#" title="Home">Home</a></li>
+                <li><a href="#" title="About_Us" class="active">About Us</a></li>
+                <li><a href="#" title="Events">Events</a></li>
+                <li><a href="#" title="Weather">Weather</a></li>
+                <li><a href="#" title="Advertisements">Advertisements</a></li>
+                <li><a href="#" title="Contact">Contact Us</a></li> 
+            </ul>
+
+            <div class="social-mobile">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+            <!-- Rounded switch -->
+            <div id="interruptor">            
+                <label class="switch">
+                <input type="checkbox" id="switching">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+            
+        </nav>
+
+        <!-- Chamber Discover Page -->
+        <div id="eventos" class="sidebar">
+            <h2>Women week entrepreneur</h2><br>
+            <p><strong>March 4 to 8.</strong></p><br>
+            <p>"When you're really passionate about something, you find ways to nurture it."</p>
+            <p>Come with us and learn how to create your business or how to improve it with our free courses.</p>
+            <p>Check our course calendar for this week.</p> 
+        </div>
+
+        <div id="flyer" class="sidebar">
+            <img class="advmobile" src="/chamber/images/flyer.webp" alt="Women week entrepreneur free courses flyer">
+        </div>
+
+        <div id="calendar" class="sidebar">
+            <img class="advmobile" src="/chamber/images/midcalendar.webp" alt="Women week entrepreneur free courses calendar">
+        </div>
+
+        <div id="minicalendar" class="sidebar">
+            <img class="advmobile" src="/chamber/images/minicalendar.webp" alt="Women week entrepreneur free courses minicalendar">
+        </div>
+
+        <!-- Lazy Load -->
+      
+            <picture>
+                <img class="animacion" src="https://placedog.net/400/585" alt="Placeholder Dog Image" loading="lazy" width="400p" height="600">
+            </picture>
+            <picture>
+                <img class="animacion" src="https://placedog.net/400/595" alt="Placeholder Dog Image" loading="lazy" width="400p" height="600">
+            </picture>
+            <picture>
+                <img class="animacion" src="https://placedog.net/400/605" alt="Placeholder Dog Image" loading="lazy" width="400p" height="600">
+            </picture>
+            <picture>
+                <img class="animacion" src="https://placedog.net/400/685" alt="Placeholder Dog Image" loading="lazy" width="400p" height="600">
+            </picture>
+            <picture>
+                <img class="animacion" src="https://placedog.net/400/505" alt="Placeholder Dog Image" loading="lazy" width="400p" height="600">
+            </picture>
+            <picture>
+                <img class="animacion" src="https://placedog.net/400/705" alt="Placeholder Dog Image" loading="lazy" width="400p" height="600">
+            </picture>
+    
+
+
+
+
+        <footer>
+
+            <div id="information">
+                <h4>GAM Companies Chamber of Commerce | &copy; <span id="year"></span> | Rubén Zempoalteca | WDD 230 Project | <span id="lastModified"></span></h4>  
+            </div>
+
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+            
+
+            
+        </footer>
+    </main>
+
+    <script src="scripts/get-dates.js"></script>
+    <script src="scripts/hamburger-menu.js"></script>
+    <script src="scripts/toggle-witch.js"></script>
+</body>
+</html>

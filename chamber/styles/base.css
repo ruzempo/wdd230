@@ -20,6 +20,8 @@ main{
     /* max-width: 480px; */
     margin: auto;
     text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 #menu {
@@ -271,4 +273,46 @@ footer .social img {
     padding-top: 5px;
     width: 30px;
     height: auto;
+}
+
+/* sidebar */
+
+.sidebar{ 
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    margin-top: 5px;
+    padding: 15px;
+    background-color:#006599;
+    color: #ffffff;
+    background-color:#006599; 
+}
+
+#eventos h2{
+    border-bottom: 2px solid #ff6817;
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+
+}
+
+picture{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.animacion{
+    background-color: black;
+    width: 100%;
+    animation: fade 15s;
+}
+
+@keyframes fade{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
